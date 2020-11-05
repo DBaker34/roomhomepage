@@ -1,3 +1,16 @@
+.hidden {
+  display: none; }
 
+#grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 2fr 1fr; }
+
+nav {
+  grid-area: 1 / 1 / 1 / 5;
+  width: 100%; }
+
+.topright {
+  grid-area: 1 / 6 / 3 / 11; }
 
 /*# sourceMappingURL=roompage.css.map */
