@@ -1,16 +1,26 @@
+body {
+  margin: 0;
+  padding: 0; }
+
 .hidden {
   display: none; }
 
 #grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 2fr 1fr; }
-
-nav {
-  grid-area: 1 / 1 / 1 / 5;
-  width: 100%; }
-
-.topright {
-  grid-area: 1 / 6 / 3 / 11; }
+  grid-template-rows: 4fr 2fr;
+  height: 100vh; }
+  #grid-container nav {
+    grid-area: 1 / 2 / 1 / 5;
+    width: 100%; }
+    #grid-container nav ul {
+      list-style-type: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly; }
+  #grid-container .topright {
+    grid-area: 1 / 7 / 1 / 11; }
+  #grid-container #bottommiddle {
+    grid-area: 2 / 4 / 2 / 8; }
 
 /*# sourceMappingURL=roompage.css.map */
