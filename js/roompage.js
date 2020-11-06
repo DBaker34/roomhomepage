@@ -1,5 +1,5 @@
 const larrow = document.getElementById("larrow");
 const rarrow = document.getElementById("rarrow");
-
-larrow.addEventListener("click", prev);
-rarrow.addEventListener("click", next);
+const slide1 = document.getElementsByClassName("slide1");
+const slide2 = document.getElementsByClassName("slide2");
+const slide3 = document.getElementsByClassName("slide3");
