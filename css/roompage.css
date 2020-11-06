@@ -135,10 +135,13 @@ body {
       height: 100%;
       object-fit: cover; }
 
-#slide2 {
+.slide1 {
+  display: flex; }
+
+.slide2 {
   display: none; }
 
-#slide3 {
+.slide3 {
   display: none; }
 
 /*# sourceMappingURL=roompage.css.map */
