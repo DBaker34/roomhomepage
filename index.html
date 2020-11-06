@@ -6,53 +6,76 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="css/roompage.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@500;600;700&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Room homepage</title>
 
 </head>
 <body>
 <div id="grid-container">
+
+  <section id="logo">
+    <img src="images/logo.svg">
+  </section>
+
   <nav>
     <ul>
-      <li>Home</li>
-      <li>Shop</li>
-      <li>About</li>
-      <li>Contact</li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html">Shop</a></li>
+      <li><a href="index.html">About</a></li>
+      <li><a href="index.html">Contact</a></li>
     </ul>
   </nav>
+
+  <section class="topleft" class="slide1">
+    <img src="images/desktop-image-hero-1.jpg">
+  </section>
   
-  <section class="topright">
+  <section class="topright" class="slide1">
     <h1>Discover innovative ways to decorate</h1>
 
     <p>We provide unmatched quality, comfort, and style for property owners across the country. 
-    Our experts combine form andnfunction in bringing your vision to life. Create a room in your 
+    Our experts combine form and function in bringing your vision to life. Create a room in your 
     own style with our collection and make your property a reflection of you and what you love.</p>
+
+    <article id="shopnow">
+    <a href="index.html">SHOP NOW <img src="images/icon-arrow.svg"></a>
+    </article>
+  </section>
+
+  <section id="slide2">
+    <h1>We are available all across the globe</h1>
+
+    <p>With stores all over the world, it's easy for you to find furniture for your home or place of business. 
+    Locally, we’re in most major cities throughout the country. Find the branch nearest you using our 
+    store locator. Any questions? Don't hesitate to contact us today.</p>
+
+    <a href="index.html">Shop now</a>
+    </section>
+
+  <section id="slide3">
+    <h1>Manufactured with the best materials</h1>
+
+    <p>Our modern furniture store provide a high level of quality. Our company has invested in advanced technology 
+    to ensure that every product is made as perfect and as consistent as possible. With three decades of 
+    experience in this industry, we understand what customers want for their home and office.</p>
 
     <a href="index.html">Shop now</a>
   </section>
 
-  <section class="topright">
-    <h1 class="hidden">We are available all across the globe</h1>
-
-    <p class="hidden">With stores all over the world, it's easy for you to find furniture for your home or place of business. 
-    Locally, we’re in most major cities throughout the country. Find the branch nearest you using our 
-    store locator. Any questions? Don't hesitate to contact us today.</p>
-
-    <a href="index.html" class="hidden">Shop now</a>
-    </section>
-
-  <section class="topright">
-    <h1 class="hidden">Manufactured with the best materials</h1>
-
-    <p class="hidden">Our modern furniture store provide a high level of quality. Our company has invested in advanced technology 
-    to ensure that every product is made as perfect and as consistent as possible. With three decades of 
-    experience in this industry, we understand what customers want for their home and office.</p>
-
-    <a href="index.html" class="hidden">Shop now</a>
+  <section id="arrows">
+    <img id="larrow" src="images/icon-angle-left.svg"><img id="rarrow" src="images/icon-angle-right.svg">
   </section>
 
+  
+  <section id="bottomleft">
+    <img src="images/image-about-dark.jpg">
+  </section>
+
+
   <section id="bottommiddle">
-    <h4>About our furniture</h4>
+    <h4>ABOUT OUR FURNITURE</h4>
 
     <p>Our multifunctional collection blends design and function to suit your individual taste.
     Make each room unique, or pick a cohesive theme that best express your interests and what
@@ -60,6 +83,11 @@
     or anything in between. Product specialists are available to help you create your dream space.</p>
   </section>
 
+  <section id="bottomright">
+    <img src="images/image-about-light.jpg">
+  </section>
+
+  <script src="js/roompage.js"></script>
 </div>
 </body>
 </html>
