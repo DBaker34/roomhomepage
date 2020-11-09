@@ -137,6 +137,7 @@ body {
 
         #larrow:hover {
             cursor: pointer;
+            background-color: $gray;
         }
 
         #rarrow {
@@ -148,6 +149,7 @@ body {
 
         #rarrow:hover {
             cursor: pointer;
+            background-color: $gray;
         }
     }
 
@@ -167,7 +169,7 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 55%;
+        height: 50%;
         width: 90%;
         margin: auto;
         background-color: white;
@@ -185,6 +187,13 @@ body {
             color: $gray;
             font-size: 14px;
         }
+
+        @media screen and (max-width: 1450px) {
+                p {
+                    font-size: 10px;
+                }
+
+        }
     }
 
     #bottomright {
@@ -198,14 +207,14 @@ body {
     } 
 }
 
-.slide1 {
-    display: flex; 
-}
-
-.slide2 {
+.slide {
     display: none;
 }
 
-.slide3 {
+.slideimg {
     display: none;
+}
+
+.active {
+    display: block;
 }
