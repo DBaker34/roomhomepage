@@ -3,7 +3,7 @@ const imgs = document.querySelectorAll(".slideimg");
 const prevButton = document.getElementById("larrow");
 const nextButton = document.getElementById("rarrow");
 
-var currentSlide = 0;
+let currentSlide = 0;
 
 const nextSlide = function(){
 
